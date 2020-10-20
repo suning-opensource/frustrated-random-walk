@@ -3,11 +3,11 @@
 
 This repository is an implementation of the algorithm presented here: https://arxiv.org/abs/1908.09644
 
-## 1. What should you install to run the program? 
+## What should you install to run the program? 
 This implmentation contains both Scala and Python codes. To run Scala, you need to install sbt 1.0.4 and Scala 2.11.8 or 2.12.3. To run Python, you need to install Python 2.7. You also need numpy, scipy and networkx to run the Python programs. 
 
-## 2. How to run the program? 
-You can run the program either using "sbt run" or using Scala REPL. To use the first method, you need to create your own main.scala. An example of main.scala is already present in the folder src. To use the second method, first create a package using 
+## How to run the program? 
+You can run the program either using ```sbt run``` or using Scala REPL. To use the first method, you need to create your own `main.scala`. An example of `main.scala` is already present in the folder `src`. To use the second method, first create a package using 
 
 ```
 >> sbt package
