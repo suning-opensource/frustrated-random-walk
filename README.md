@@ -26,12 +26,14 @@ After running these lines, you will see your results in file Harry_Potter.txt. T
 ## Copyright declarations
 This algorithm together with its program implementation is created by Enzhi Li at Suning R&D Center, Palo Alto, USA, under the supervision of Zhengyi Le. If you find this algorithm and its program implmentation useful, please cite us: 
 
+```
 @article{li2019frustrated,
   title={Frustrated Random Walks: A Faster Algorithm to Evaluate Node Distances on Connected and Undirected Graphs},
   author={Li, Enzhi and Le, Zhengyi},
   journal={arXiv preprint arXiv:1908.09644},
   year={2019}
 }
+```
 
 ## Sponsor and Supporting Team
 The author Enzhi Li finished this project at at Big Data Lab of [Suning R&D Center, Palo Alto](http://www.ussuning.com/). Thanks to the help of our team members. 
