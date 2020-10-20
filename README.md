@@ -41,3 +41,6 @@ This algorithm together with its program implementation is created by Enzhi Li a
 
 ## Sponsor and Supporting Team
 The author Enzhi Li finished this project at at Big Data Lab of [Suning R&D Center, Palo Alto](http://www.ussuning.com/). Thanks to the help of our team members. 
+
+
+© 2020 Big Data lab, Suning, USA.
