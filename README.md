@@ -9,10 +9,13 @@ This implmentation contains both Scala and Python codes. To run Scala, you need 
 ## 2. How to run the program? 
 You can run the program either using "sbt run" or using Scala REPL. To use the first method, you need to create your own main.scala. An example of main.scala is already present in the folder src. To use the second method, first create a package using 
 
+```
 >> sbt package
+```
 
 Then run
 
+```
 >> Scala
 >> import frustrated.random.walk._
 >> val graph = new Graph
@@ -20,6 +23,7 @@ Then run
 >> graph.fastReadFile("../data/harry_potter.csv", seperator)
 >> val target: String = "Harry_Potter"
 >> graph.calculateHittingTimesOfFrustratedRandomWalks(target)
+```
 
 After running these lines, you will see your results in file Harry_Potter.txt. The first line of this file is the target, and the following lines list all the other nodes and their distanes to the target, and these nodes are ranked according to their distances with respect to the target, from near to far. 
 
