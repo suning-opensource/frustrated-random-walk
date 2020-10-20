@@ -1,5 +1,6 @@
-# frustrated-random-walk
- A graph algorithm for evaluating node distances.
+# Frustrated random walk
+
+A graph algorithm for evaluating node distances. 
 
 This repository is an implementation of the algorithm presented here: https://arxiv.org/abs/1908.09644
 
