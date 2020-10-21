@@ -8,19 +8,19 @@ This repository is an implementation of the algorithm presented here: https://ar
 This implementation contains both Scala and Python codes. To run Scala, you need to install sbt 1.0.4 and Scala 2.11.8 or 2.12.3. To run Python, you need to install Python 2.7. You also need numpy, scipy and networkx to run the Python programs.
 
 ## How to run the program?
-You can run the program either using ```sbt run``` or using Scala REPL. To use the first method, you need to create your own `main.scala`. An example of `main.scala` is already present in the folder `src`. To use the second method, first create a package using
+First, use `src` as the working directory. You can run the program either using ```sbt run``` or using Scala REPL. To use the first method, you need to create your own `main.scala`. An example of `main.scala` is already present in the folder `src`. To use the second method, first create a package using
 
 ```
 >> sbt package
 ```
 
-Then run the following line to enter scala REPL environment: 
+Then run the following line to enter Scala REPL environment: 
 
 ```
 >> scala -classpath ./target/scala-2.11/frustrated-random-walk_2.11-1.0.jar
 ```
 
-In the scala REPL, run these lines:
+In the Scala REPL, run these lines:
 ```
 >> import frustrated.random.walk._
 >> val graph = new Graph
