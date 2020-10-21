@@ -14,10 +14,14 @@ You can run the program either using ```sbt run``` or using Scala REPL. To use t
 >> sbt package
 ```
 
-Then run
+Then run the following line to enter scala REPL environment: 
 
 ```
->> Scala
+>> scala -classpath ./target/scala-2.11/frustrated-random-walk_2.11-1.0.jar
+```
+
+In the scala REPL, run these lines:
+```
 >> import frustrated.random.walk._
 >> val graph = new Graph
 >> val separator: String = ";"
