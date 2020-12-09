@@ -36,11 +36,19 @@ After running these lines, you will see your results in file Harry_Potter.txt. T
 This algorithm together with its program implementation is created by Enzhi Li at Suning R&D Center, Palo Alto, USA, under the supervision of Zhengyi Le. If you find this algorithm and its program implementation useful, please cite us:
 
 ```
-@article{li2019frustrated,
-  title={Frustrated Random Walks: A Faster Algorithm to Evaluate Node Distances on Connected and Undirected Graphs},
-  author={Li, Enzhi and Le, Zhengyi},
-  journal={arXiv preprint arXiv:1908.09644},
-  year={2019}
+@article{PhysRevE.102.052135,
+  title = {Frustrated random walks: A faster algorithm to evaluate node distances on connected and undirected graphs},
+  author = {Li, Enzhi and Le, Zhengyi},
+  journal = {Phys. Rev. E},
+  volume = {102},
+  issue = {5},
+  pages = {052135},
+  numpages = {13},
+  year = {2020},
+  month = {Nov},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevE.102.052135},
+  url = {https://link.aps.org/doi/10.1103/PhysRevE.102.052135}
 }
 ```
 
