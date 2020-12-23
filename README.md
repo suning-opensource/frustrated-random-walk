@@ -3,8 +3,11 @@
 A graph algorithm for evaluating node distances. 
 
 This repository is an implementation of the algorithm presented here: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.102.052135
+
 See this link for a preview: https://arxiv.org/abs/1908.09644
+
 For a Chinese translation, see this link: https://zhuanlan.zhihu.com/p/334361052
+
 
 Code written and tested by [Enzhi Li](https://github.com/PrimerLi). 
 All the test data set can be found via these links:  
