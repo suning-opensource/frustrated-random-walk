@@ -2,7 +2,15 @@
 
 A graph algorithm for evaluating node distances. 
 
-This repository is an implementation of the algorithm presented here: https://arxiv.org/abs/1908.09644
+This repository is an implementation of the algorithm presented here: https://journals.aps.org/pre/abstract/10.1103/PhysRevE.102.052135
+See this link for a preview: https://arxiv.org/abs/1908.09644
+For a Chinese translation, see this link: https://zhuanlan.zhihu.com/p/334361052
+
+Code written and tested by [Enzhi Li](https://github.com/PrimerLi). 
+All the test data set can be found via these links:  
+1. [Dream of the Red Chamber (红楼梦) data set](https://github.com/PrimerLi/red_chamber_dream_network) 
+2. [arXiv data set and Harry Potter data set] (https://github.com/PrimerLi/graph-data)
+3. [IMDB movie star data set](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset). 
 
 ## What should you install to run the program?
 This implementation contains both Scala and Python codes. To run Scala, you need to install sbt 1.0.4 and Scala 2.11.8 or 2.12.3. To run Python, you need to install Python 2.7. You also need numpy, scipy and networkx to run the Python programs.
